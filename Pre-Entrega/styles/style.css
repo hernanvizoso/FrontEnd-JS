@@ -1,0 +1,693 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: #dc7703;
+    padding: 6px 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 100;
+    font-family: 'Ravie';
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #b05420;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    /* background-color: #ccc; */
+    background-color: #dc7703;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.footerDivImg{
+    background-color:#dc7703;
+}
+
+.footerDivImg2{
+    background-color: #314c1b;
+}
+.footer3 {
+    background-color: #b05420;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    color:#dc7703;
+}
+.footer4{
+    background-color: transparent;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    color:white; 
+    border: 3px solid #ccc;
+}
+
+nav ul li a.activo {
+    /* background-color: #4c76a5; */
+    background-color: #dc7703;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*#region home inicio */
+h2 {
+    color: white;
+    font-weight: 400;
+}
+
+.homeImg {
+    width: 100%;
+    padding-left: 0;
+}
+
+.bienvenidos {
+    width: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.bienvenidos h2 {
+    margin-top: 20px;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimoniosSection {
+    width: 40%;
+}
+
+.testimoniosSection h2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.testimonios {
+    background-color:transparent;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.testimonios .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonios .autor {
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    margin: 12px 0;
+}
+
+.columnas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@keyframes blinking {
+    0% {
+        color: #dc7703;
+    }
+    100% {
+      color: white;
+    }
+  }
+  .blink {
+    animation: blinking 1s infinite;
+  }
+
+  .detailsFooter{
+    text-align: start;
+  }
+  .paddingLeft15{
+    padding-left: 15px;
+  }
+/* fin home  */
+
+/* inicio nosotros */
+
+.historia p {
+    font-size: 12px;
+}
+
+.staff {
+    width: auto;
+}
+
+.personaMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.personaItem {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    color: white;
+    /* color: #dc7703; */
+}
+
+.personaItem img {
+    border-radius: 50%;
+    max-width: 70%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: 1s ease;
+}
+
+.personaItem h4 {
+    font-weight: bold;
+    padding: 0;
+}
+
+.personaItem p {
+    color: whitesmoke;
+}
+
+.personaItem div:hover {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+    transition: 1s ease;
+    font-weight: bold;
+    color: #dc7703;
+    /* color: white; */
+}
+
+.container2 {
+    text-align: center;
+}
+li a{
+     text-decoration: none;
+     color: white;
+}
+
+li a:hover{
+   color: #dc7703;
+}
+
+/* fin nosotros */
+
+/* inicio destinos */
+
+
+.servicioItem {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.servicioItem img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+    transition: 1s ease;
+}
+
+.servicioItem .info h4 {
+    color: #dc7703;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #dc7703;
+    padding-bottom: 10px;
+}
+
+.servicioItem .info p {
+    font-size: 13px;
+}
+
+
+.servicioItem img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+.servicioItem:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* fin destinos */
+
+/* inicio construccion */
+.divTop {
+    background-color: rgba(255, 202, 88, 255);
+    display: block;
+    height: 20px;
+    width: 870px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.mainBody {
+    background-color: rgba(50, 49, 57, 255);
+    margin: 0;
+}
+
+.mainDiv {
+    max-width: 870px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.mainConstruccion {
+    background-color: rgba(83, 82, 88, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+.bodiConstructionItem {
+    background-color: rgba(83, 82, 88, 255);
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+
+.red {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(83, 82, 88, 255);
+    width: 800px;
+    height: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.red1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.red2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 202, 88, 255);
+    text-transform: uppercase;
+    float: left;
+}
+
+.footerConstruction {
+    background-color: rgba(50, 49, 57, 255);
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.divBoton {
+    font-size: auto;
+    font-weight: bold;
+    background-color: rgba(255, 202, 88, 255);
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.leyend1 {
+    color: white;
+}
+
+.aboton {
+
+    font-size: large;
+    color: rgba(83, 82, 88, 255);
+    text-decoration: none;
+
+}
+
+/* fin construccion */
+
+.carousel-item h5 {
+    color: white;
+    font-family: wfont_ea7e5d_6a0e3a2821df4187bd07550e513e3375, wf_6a0e3a2821df4187bd07550e5, orig_albra_black;
+    font-size: 60px;
+    letter-spacing: 0em;
+    font-weight: bold;
+}
+
+.carousel-item p {
+    color: white;
+    font-family: wfont_ea7e5d_6a0e3a2821df4187bd07550e513e3375, wf_6a0e3a2821df4187bd07550e5, orig_albra_black;
+    font-size: 20px;
+    letter-spacing: 0em;
+    font-weight: bold;
+    color: #dc7703;
+}
+
+.fontCarYellow {
+    color: #dc7703;
+    font-family: wfont_ea7e5d_6a0e3a2821df4187bd07550e513e3375, wf_6a0e3a2821df4187bd07550e5, orig_albra_black;
+    font-size: 60px;
+    letter-spacing: 0em;
+    font-weight: bold;
+}
+
+.fontCarBlack {
+    color: rgb(6, 6, 5);
+    font-weight: bold;
+}
+
+/* .carousel-item .h */
+
+.fontCarBlue {
+    color: blue;
+    font-weight: bold;
+}
+
+.fontCarOrange {
+    color: orangered;
+    font-weight: bold;
+}
+
+.fontCarRed {
+    color: red;
+    font-weight: bold;
+}
+
+/*, .carousel-indicators */
+/* .carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+} */
+
+/* .carousel-control-next-icon {
+    background: blue;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    border-radius: 10px;
+} */
+
+/* .carousel-indicators .active {
+    opacity: 1.5;
+    filter: invert(100%);
+    color: #dc7703;
+} */
+
+.contentFirst::before {
+    content: "Nuestro equipo de trabajo es fundamental.";
+    /* background-color: #6da9ed; */
+}
+
+.contentSecond::before {
+    content: "Tratamos de brindar un mejor servicio cada dia.";
+    /* background-color: teal; */
+}
+
+.content3::before {
+    content: "Conoce por dentro nuestras instalaciones.";
+}
+
+.content4::before {
+    content: "Enterate de las ultimas novedades para vos.";
+}
+
+/* fin bootstrap */
+
+/* inicio galeria */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url(../images/home/logoChimu.png);
+    background-position-x: center;
+    background-repeat: repeat-y;
+    background-color: #314c1b;
+}
+
+.galeria img {
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    box-shadow: 5px 10px #888888;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+
+
+/* fin galeria */
+
+
+/* inicio contacto */
+.contacto {
+    display: flex;
+    gap: 50px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos {
+    padding-left: 15px;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario {
+    padding-left: 15px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 100px;
+}
+
+.formulario p label {
+    display: flex;
+    align-items: center;
+    color: #dc7703;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+}
+
+.formulario p input,
+.formulario p textarea {
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: #b05420;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    /* border-radius: 10px; */
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 6.3rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background: #dc7703;
+}
+
+.datos ul {
+    list-style: none;
+}
+
+.datos ul li i {
+    color: #dc7703;
+    padding-right: 8px;
+}
+
+.datos ul li a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+/* fin contacto */
+
+/* inicio nuevo */
+
+
+.fondo {
+    background-image: url("../images/home/logoChimu2.png ");
+    background-repeat: no-repeat;
+    background-size: 30% auto; 
+    /*esta ok*/
+
+    background-color: #314c1b;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.usedColors {
+    background-color: brown;
+    background-color: #dc7703;
+    background-color: rgb(165, 42, 2);
+    /*esta ok*/
+
+    background-color: #dbcfb2;
+    background-color: #314c1b;
+}
+
+.fondoBody {
+    background-repeat: repeat-y;
+    background-color: #314c1b;
+}
+
+/* inicio tienda */
+
+.galeria2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.galeria2Item {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.galeria2Item div {
+    width: 50%;
+}
+
+.galeria2Item a {
+    font-size: 20px;
+    color: #dc7703;
+    text-decoration: none;
+}
+
+.galeria2Item i {
+    color: #dc7703;
+    padding-right: 10px;
+}
+
+.galeria2Item p {
+    font: 22px;
+    color: white;
+}
+
+.galeria2 img {
+    width: 35%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    box-shadow: 5px 10px #888888;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.galeria2Item h4, h3 {
+    color: white;
+    font-weight: 400;
+}
+.paddingTienda{
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+
+/* fin tienda */
