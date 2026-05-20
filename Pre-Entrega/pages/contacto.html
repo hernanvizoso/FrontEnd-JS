@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 2023</title>
+    <title>Proyecto 2026</title>
+    <link rel="icon" href="../images/Home/logoChimu2.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
@@ -42,14 +43,28 @@
             <form action="https://formspree.io/f/xredeopj" method="POST" class="formulario">
                 <p>
                     <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="" placeholder="Ingrese su nombre">
+                    <input type="text" 
+                            name="nombre" 
+                            id="mail" 
+                            pattern="[a-zAZ\s]+"
+                            title="Ingrese un nombre valido"
+                            required
+                            placeholder="Ingrese su nombre">
                 <p>
                     <label for="email">Email</label>
-                    <input type="email" name="" id="email" placeholder="Ingrese su mail">
+                    <input type="email" 
+                            name="email" id="email" 
+                            pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}" 
+                            title="Introduce una dirección de correo válida (ejemplo: usuario@dominio.com)" 
+                            required
+                            placeholder="Ingrese su mail">
                 </p>
                 <p>
                     <label for="telefono">Telefono</label>
-                    <input type="tel" name="telefono" id="" placeholder="Ingrese su telefono">
+                    <input type="tel" name="telefono" id="tel"
+                     placeholder="11-2233-4455" 
+                     pattern=[0-9]{2}-[0-9]{4}-[0-9]{4}
+                    title="Formato: Código de área - Número (ej: 11-2233-4455)">
                 </p>
                 <p>
                     <label for="mensaje">Mensaje</label>
